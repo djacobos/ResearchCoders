@@ -80,7 +80,78 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\colour-green.css" />
+    <Content Include="Content\colour-grey.css" />
+    <Content Include="Content\colour-purple.css" />
+    <Content Include="Content\colour-red.css" />
+    <Content Include="Content\custom-style.css" />
+    <Content Include="Content\flexslider.css" />
+    <Content Include="Content\font\fontawesome-webfont.svg" />
+    <Content Include="Content\responsive.css" />
+    <Content Include="Content\responsive.min.css" />
+    <Content Include="Content\theme-style.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\bg_noise-2.png" />
+    <Content Include="Images\bg_noise-5.png" />
+    <Content Include="Images\blog\ape.jpg" />
+    <Content Include="Images\blog\bee.jpg" />
+    <Content Include="Images\blog\butterfly.jpg" />
+    <Content Include="Images\blog\fly.jpg" />
+    <Content Include="Images\blog\frog.jpg" />
+    <Content Include="Images\blog\ladybird.jpg" />
+    <Content Include="Images\blog\water-pump.jpg" />
+    <Content Include="Images\clients\amazon.png" />
+    <Content Include="Images\clients\android.png" />
+    <Content Include="Images\clients\bbc.png" />
+    <Content Include="Images\clients\css3.png" />
+    <Content Include="Images\clients\github.png" />
+    <Content Include="Images\clients\html5.png" />
+    <Content Include="Images\glyphicons-halflings-white.png" />
+    <Content Include="Images\glyphicons-halflings.png" />
+    <Content Include="Images\misc\blue.png" />
+    <Content Include="Images\misc\green.png" />
+    <Content Include="Images\misc\grey.png" />
+    <Content Include="Images\misc\map.png" />
+    <Content Include="Images\misc\purple.png" />
+    <Content Include="Images\misc\red.png" />
+    <Content Include="Images\portfolio\enkel-home-blue.png" />
+    <Content Include="Images\portfolio\enkel-home-colours.png" />
+    <Content Include="Images\portfolio\enkel-home-red.png" />
+    <Content Include="Images\portfolio\enkel-project-grey.png" />
+    <Content Include="Images\portfolio\enkel-services-green.png" />
+    <Content Include="Images\README.txt" />
+    <Content Include="Images\slides\slide1.png" />
+    <Content Include="Images\slides\slide2.png" />
+    <Content Include="Images\slides\slide3.png" />
+    <Content Include="Images\team\adele.jpg" />
+    <Content Include="Images\team\bono.jpg" />
+    <Content Include="Images\team\deniro.jpg" />
+    <Content Include="Images\team\jimi.jpg" />
+    <Content Include="Images\team\jobs.jpg" />
+    <Content Include="Images\team\jolie.jpg" />
+    <Content Include="Images\team\obama.jpg" />
+    <Content Include="Images\team\women1.jpg" />
+    <Content Include="Scripts\bootstrap-affix.js" />
+    <Content Include="Scripts\bootstrap-alert.js" />
+    <Content Include="Scripts\bootstrap-button.js" />
+    <Content Include="Scripts\bootstrap-carousel.js" />
+    <Content Include="Scripts\bootstrap-collapse.js" />
+    <Content Include="Scripts\bootstrap-dropdown.js" />
+    <Content Include="Scripts\bootstrap-modal.js" />
+    <Content Include="Scripts\bootstrap-popover.js" />
+    <Content Include="Scripts\bootstrap-scrollspy.js" />
+    <Content Include="Scripts\bootstrap-tab.js" />
+    <Content Include="Scripts\bootstrap-tooltip.js" />
+    <Content Include="Scripts\bootstrap-transition.js" />
+    <Content Include="Scripts\bootstrap-typeahead.js" />
+    <Content Include="Scripts\html5.js" />
+    <Content Include="Scripts\jquery.flexslider-min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.quicksand.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +166,10 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Content\font\fontawesome-webfont.eot" />
+    <Content Include="Content\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\font\fontawesome-webfont.woff" />
+    <Content Include="Content\font\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
