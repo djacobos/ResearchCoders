@@ -959,6 +959,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Views\TestDriven\ReadMe.txt" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_StyleSwitcher.cshtml" />
@@ -967,7 +968,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AspNetMvcController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MobileController.cs" />
+    <Compile Include="Controllers\SolidDesignController.cs" />
+    <Compile Include="Controllers\TestDrivenController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -982,6 +987,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Views\TestDriven\Index.cshtml" />
+    <Content Include="Views\SolidDesign\Index.cshtml" />
+    <Content Include="Views\AspNetMvc\Index.cshtml" />
+    <Content Include="Views\Mobile\Index.cshtml" />
+    <Content Include="Templates\MainBlogSectionPage.cshtml" />
+    <Content Include="Templates\MainBlogSectionDetail.cshtml" />
+    <Content Include="Views\TestDriven\2015\11\Fundamentals.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
