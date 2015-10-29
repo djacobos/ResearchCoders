@@ -13,5 +13,11 @@ namespace ResearchCoders.WebUI.Controllers
         {
             return View();
         }
+
+		// GET: AboutUs
+		public ActionResult AboutUs()
+		{
+			return View();
+		}
     }
 }

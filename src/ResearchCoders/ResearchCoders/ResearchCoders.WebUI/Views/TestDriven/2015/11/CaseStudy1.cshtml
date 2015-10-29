@@ -1,0 +1,79 @@
+﻿@{
+	ViewBag.Title = "Case Study 1";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+@*<link href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css" rel="stylesheet" type="text/css" />*@
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+	<div id="blog">
+
+		<!-- PAGE TITLE -->
+		<header id="page-title">
+			<div class="container">
+				<h1>Research <strong>Coders</strong></h1>
+
+				<ul class="breadcrumb">
+					<li><a href="@Url.Action("Index","Home")">Home</a></li>
+					<li><a href="@Url.Action("Index","TestDriven")">Test Driven Design</a></li>
+					<li class="active">Case Study 1: Mobile App Test Driven</li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="container">
+
+			<div class="row">
+				<div class="left col-md-12">
+
+					<!-- article title -->
+					<header class="blog-post">
+						<h1>Case Study 1: Mobile App Test Driven</h1>
+					</header>
+					<!-- article content -->
+					<article>
+						<p>
+							Problem were solving: Someone comes to you and says, would'nt it be nice if when I go to Walmart my app would tell me what aisle a product is in?<br />
+							What were building: An app.<br />
+							Platform: For now Android is fine.<br />
+							How would we go about to do this taking the TDD (Test Driven Development) approach<br />
+							My preference is to start using a technique called <strong>Fake it til you make it</strong> which means that you start writing out how you want your test to read and your methods to be
+							called, although they do not exist, until "You Make it".
+						</p>
+					</article>
+
+					<!-- carousel --><!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
+					<div class="owl-carousel text-center controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "autoPlay": true, "transitionStyle":"fadeUp"}'>
+						<div class="item">
+							<img src="~/img/WalmartApp1.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp2.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp3.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp5.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp6.png" class="img-responsive" alt="img" />
+						</div>
+					</div>
+
+					<hr />
+
+				</div>
+
+
+			</div>
+
+
+		</section>
+
+	</div>
+</div>
+<!-- /WRAPPER -->

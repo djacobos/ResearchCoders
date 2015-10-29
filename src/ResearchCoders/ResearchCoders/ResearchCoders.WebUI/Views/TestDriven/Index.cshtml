@@ -22,15 +22,13 @@
 			<div class="row">
 				<div class="col-md-9">
 
-					<!-- blog item -->
+					<!-- blog item 1 -->
 					<div class="item">
 
 						<!-- article title -->
 						<div class="item-title">
 							<h2><a href="@Url.Action("Fundamentals","TestDriven")">Part 1: Test Fundamentals</a></h2>
-							<a href="blog.html" class="label label-default light"><i class="fa fa-dot-circle-o"></i> Business</a>
-							<a href="blog-post.html#comments" class="scrollTo label label-default light"><i class="fa fa-comment-o"></i> 3 Comments</a>
-							<span class="label label-default light">June 29, 2014</span>
+							<span class="label label-default light">October 28, 2015</span>
 						</div>
 
 						<!-- image -->
@@ -40,16 +38,44 @@
 
 						<!-- blog short preview -->
 						<p>
-							Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. Vivamus tincidunt, urna quis consectetur venenatis, quam urna tincidunt mi, quis convallis enim dolor sed elit. Pellentesque ultricies congue lacus, eget elementum erat lobortis et. Sed non velit neque.
+							Test driven development, also known as TDD, is an approach to building software that helps you think about what you are building from a different perspective.
+							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is using 3 Nuget packages to write unit tests, they are
+							NUnit, NUnit Adapter and Fluent Assertions...
 						</p>
 
 						<!-- read more button -->
-						<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+						<a href="@Url.Action("Fundamentals","TestDriven")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
 
 					</div>
-					<!-- /blog item -->
-					<!-- blog item -->
+					<!-- /blog item 1 -->
+					
+					<!-- blog item 2 -->
 					<div class="item">
+
+						<!-- article title -->
+						<div class="item-title">
+							<h2><a href="@Url.Action("CaseStudy1","TestDriven")">Case Study 1: Mobile App Test Driven</a></h2>
+							<span class="label label-default light">October 28, 2015</span>
+						</div>
+
+						<!-- image -->
+						<figure>
+							<img src="assets/images/demo/blog.jpg" class="img-responsive" alt="img" />
+						</figure>
+
+						<!-- blog short preview -->
+						<p>
+							Enough with theory and reading material. In this section we will use TDD to create a mobile app starting with test driven development.  Our goal is to solve a problem a person is having and then coming up with a solution.
+						</p>
+
+						<!-- read more button -->
+						<a href="@Url.Action("CaseStudy1","TestDriven")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+
+					</div>
+					<!-- /blog item 2 -->
+
+					<!-- blog item 3 -->
+					@*<div class="item">
 
 						<!-- article title -->
 						<div class="item-title">
@@ -70,10 +96,11 @@
 						<!-- read more button -->
 						<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
 
-					</div>
-					<!-- /blog item -->
-					<!-- blog item -->
-					<div class="item">
+					</div>*@
+					<!-- /blog item 3 -->
+
+					<!-- blog item 4 -->
+					@*<div class="item">
 
 						<!-- article title -->
 						<div class="item-title">
@@ -91,10 +118,11 @@
 						<!-- read more button -->
 						<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
 
-					</div>
-					<!-- /blog item -->
+					</div>*@
+					<!-- /blog item 4 -->
+
 					<!-- blog item -->
-					<div class="item">
+					@*<div class="item">
 
 						<!-- article title -->
 						<div class="item-title">
@@ -115,10 +143,11 @@
 						<!-- read more button -->
 						<a href="blog-post.html" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
 
-					</div>
+					</div>*@
 					<!-- /blog item -->
+
 					<!-- PAGINATION -->
-					<div class="text-center">
+					@*<div class="text-center">
 						<ul class="pagination">
 							<li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
 							<li class="active"><a href="#">1</a></li>
@@ -128,7 +157,7 @@
 							<li><a href="#">5</a></li>
 							<li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
 						</ul>
-					</div>
+					</div>*@
 					<!-- /PAGINATION -->
 
 				</div>

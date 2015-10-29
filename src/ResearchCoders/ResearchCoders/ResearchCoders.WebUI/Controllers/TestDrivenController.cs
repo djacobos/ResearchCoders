@@ -19,5 +19,11 @@ namespace ResearchCoders.WebUI.Controllers
 		{
 			return View("~/Views/TestDriven/2015/11/Fundamentals.cshtml");
 		}
+
+		// GET: CaseStudy1
+		public ActionResult CaseStudy1()
+		{
+			return View("~/Views/TestDriven/2015/11/CaseStudy1.cshtml");
+		}
     }
 }

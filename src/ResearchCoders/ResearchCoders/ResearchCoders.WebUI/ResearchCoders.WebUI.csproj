@@ -907,6 +907,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\WalmartApp1.png" />
+    <Content Include="img\WalmartApp2.png" />
+    <Content Include="img\WalmartApp3.png" />
+    <Content Include="img\WalmartApp5.png" />
+    <Content Include="img\WalmartApp6.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\assets\fonts\fontawesome-webfont.eot" />
@@ -994,6 +999,8 @@
     <Content Include="Templates\MainBlogSectionPage.cshtml" />
     <Content Include="Templates\MainBlogSectionDetail.cshtml" />
     <Content Include="Views\TestDriven\2015\11\Fundamentals.cshtml" />
+    <Content Include="Views\TestDriven\2015\11\CaseStudy1.cshtml" />
+    <Content Include="Views\Home\AboutUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
