@@ -1,4 +1,4 @@
 # ResearchCoders
-Research on best practices for prorgrammers
+Making programming theory come alive.
 
-Coming Soon... A Website written by a developer for developers where information is gathered about the best practices being used in the industry.
+Many case studies and samples on how to put together solutions for the problems we face.
