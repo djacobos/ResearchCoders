@@ -18,8 +18,8 @@
 
 				<ul class="breadcrumb">
 					<li><a href="@Url.Action("Index","Home")">Home</a></li>
-					<li><a href="@Url.Action("Index","TestDriven")">Test Driven Design</a></li>
-					<li class="active">Case Study 1: Mobile App Test Driven</li>
+					<li><a href="@Url.Action("Index","SolidDesign")">Mobile Cross-Platform</a></li>
+					<li class="active">Case Study 1: The Super Class</li>
 				</ul>
 			</div>
 		</header>
@@ -31,14 +31,12 @@
 
 					<!-- article title -->
 					<header class="blog-post">
-						<h1>Case Study 1: Mobile App Test Driven</h1>
+						<h1>Case Study 1: The Super Class</h1>
 					</header>
 					<!-- article content -->
 					<article>
 						<p>
 							Problem were solving: Someone comes to you and says, would'nt it be nice if when I go to Walmart my app would tell me what aisle a product is in?<br />
-							What were building: An app.<br />
-							Platform: For now Android is fine.<br />
 							How would we go about to do this taking the TDD (Test Driven Development) approach<br />
 							My preference is to start using a technique called <strong>Fake it til you make it</strong> which means that you start writing out how you want your test to read and your methods to be
 							called, although they do not exist, until "You Make it".
@@ -71,7 +69,43 @@
 
 			</div>
 
+			<div class="row">
+				<div class="left col-md-12">
 
+					<!-- article title -->
+					<h3>Next Requirement</h3>
+					<!-- article content -->
+					<article>
+						<p>
+							The same person also says, "Not only do I want the Aisle Number but also would like the price."
+							<br />
+							How would we go about the change our design?
+						</p>
+					</article>
+
+					<!-- carousel --><!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
+					<div class="owl-carousel text-center controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "autoPlay": true, "transitionStyle":"fadeUp"}'>
+						<div class="item">
+							<img src="~/img/WalmartApp1.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp2.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp3.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp5.png" class="img-responsive" alt="img" />
+						</div>
+						<div class="item">
+							<img src="~/img/WalmartApp6.png" class="img-responsive" alt="img" />
+						</div>
+					</div>
+
+					<hr />
+
+				</div>
+			</div>
 		</section>
 
 	</div>

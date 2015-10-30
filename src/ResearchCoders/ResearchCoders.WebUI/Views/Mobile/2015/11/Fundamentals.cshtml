@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Fundamentals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+@*<link href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css" rel="stylesheet" type="text/css" />*@
+
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+	<div id="blog">
+
+		<!-- PAGE TITLE -->
+		<header id="page-title">
+			<div class="container">
+				<h1>Research <strong>Coders</strong></h1>
+
+				<ul class="breadcrumb">
+					<li><a href="@Url.Action("Index","Home")">Home</a></li>
+					<li class="active">Part 1: Mobile Cross-Platform Fundamentals</li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="container">
+
+			<div class="row">
+				<div class="left col-md-12">
+
+					<!-- article title -->
+					<header class="blog-post">
+						<h1>Part 1: Mobile Cross-Platform Fundamentals</h1>
+						<div>
+							Test driven development, also known as TDD, is an approach to building software that helps you think about what you are building from a different perspective.
+							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is using 3 Nuget packages to write unit tests, they are
+							NUnit, NUnit Adapter and Fluent Assertions.  The NUnit Adapter allows NUnit to display the tests inside the Microsofts Visual Studio Test Runner.
+							I will not elaborate on it much since there are numerous reading content elsewhere but to summarize TDD goes like this:
+						</div>
+						<ul>
+							<li>Red - Write a failing test</li>
+							<li>Green - Make the failing test pass</li>
+							<li>Refactor - Improve the quality if necessary</li>
+						</ul>
+					</header>
+
+					<!-- article content -->
+					<article>
+						<p>
+							<h4>What is important to know for test driven design?</h4>
+							<ul>
+								<li>Need to care about code</li>
+								<li>Need to be disciplined</li>
+							</ul>							
+							<h4>What are benefits of test driven design?</h4>
+							<ul>
+								<li>Prevent Future Bugs</li>
+								<li>Good Test Code Coverage</li>
+								<li>Easier Maintenance</li>
+								<li>No fear in cleaning code, also known as Refactoring</li>
+							</ul>
+							
+							<h4>Techniques Covered</h4>
+							<ul>
+								<li>Red, Green, Refactor</li>
+								<li>Arrange, Act, Assert</li>
+								<li>Fake it til you make it</li>
+								<li>Assert First</li>
+							</ul>
+
+						</p>
+
+					</article>
+
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+</div>
+<!-- /WRAPPER -->

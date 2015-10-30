@@ -973,7 +973,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AspNetMvcController.cs" />
+    <Compile Include="Controllers\DesignPatternController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MobileController.cs" />
     <Compile Include="Controllers\SolidDesignController.cs" />
@@ -994,13 +994,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\TestDriven\Index.cshtml" />
     <Content Include="Views\SolidDesign\Index.cshtml" />
-    <Content Include="Views\AspNetMvc\Index.cshtml" />
-    <Content Include="Views\Mobile\Index.cshtml" />
     <Content Include="Templates\MainBlogSectionPage.cshtml" />
     <Content Include="Templates\MainBlogSectionDetail.cshtml" />
     <Content Include="Views\TestDriven\2015\11\Fundamentals.cshtml" />
     <Content Include="Views\TestDriven\2015\11\CaseStudy1.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\SolidDesign\2015\11\CaseStudy1.cshtml" />
+    <Content Include="Views\SolidDesign\2015\11\Fundamentals.cshtml" />
+    <Content Include="Views\DesignPattern\2015\11\CaseStudy1.cshtml" />
+    <Content Include="Views\DesignPattern\2015\11\Fundamentals.cshtml" />
+    <Content Include="Views\DesignPattern\Index.cshtml" />
+    <Content Include="Views\Mobile\2015\11\CaseStudy1.cshtml" />
+    <Content Include="Views\Mobile\2015\11\Fundamentals.cshtml" />
+    <Content Include="Views\Mobile\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

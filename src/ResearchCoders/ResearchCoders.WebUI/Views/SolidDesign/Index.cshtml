@@ -1,0 +1,99 @@
+﻿@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+	<div id="blog">
+
+		<!-- PAGE TITLE -->
+		<header id="page-title">
+			<div class="container">
+				<ul class="breadcrumb">
+					<li><a href="@Url.Action("Index","Home")">Home</a></li>
+					<li class="active">Solid Design Principles</li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="container">
+			<div class="row">
+				<div class="col-md-9">
+
+					<!-- blog item 1 -->
+					<div class="item">
+
+						<!-- article title -->
+						<div class="item-title">
+							<h2><a href="@Url.Action("Fundamentals", "SolidDesign")">Part 1: Solid Design Fundamentals</a></h2>
+							<span class="label label-default light">October 29, 2015</span>
+						</div>
+
+						<!-- image -->
+						<figure>
+							<img src="assets/images/demo/blog.jpg" class="img-responsive" alt="img" />
+						</figure>
+
+						<!-- blog short preview -->
+						<p>
+							SOLID was introduced by a software developer named Robert Martin...
+						</p>
+
+						<!-- read more button -->
+						<a href="@Url.Action("Fundamentals","SolidDesign")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+
+					</div>
+					<!-- /blog item 1 -->
+					<!-- blog item 2 -->
+					<div class="item">
+
+						<!-- article title -->
+						<div class="item-title">
+							<h2><a href="@Url.Action("CaseStudy1", "SolidDesign")">Case Study 1: The Super Class</a></h2>
+							<span class="label label-default light">October 29, 2015</span>
+						</div>
+
+						<!-- image -->
+						<figure>
+							<img src="assets/images/demo/blog.jpg" class="img-responsive" alt="img" />
+						</figure>
+
+						<!-- blog short preview -->
+						<p>
+							Enough with theory and reading material. In this section we will use TDD to create a mobile app starting with test driven development.  Our goal is to solve a problem a person is having and then coming up with a solution.
+						</p>
+
+						<!-- read more button -->
+						<a href="@Url.Action("CaseStudy1", "SolidDesign")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+
+					</div>
+					<!-- /blog item 2 -->
+
+				</div>
+
+				<div class="col-md-3">
+
+
+					<!-- blog search -->
+					<div class="widget">
+
+						<h3>BLOG SEARCH</h3>
+
+						<form method="get" action="#" class="input-group">
+							<input type="text" class="form-control" name="s" id="s" value="" placeholder="search..." />
+							<span class="input-group-btn">
+								<button class="btn btn-primary"><i class="fa fa-search"></i></button>
+							</span>
+						</form>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+</div>
+<!-- /WRAPPER -->

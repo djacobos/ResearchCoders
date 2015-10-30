@@ -13,5 +13,17 @@ namespace ResearchCoders.WebUI.Controllers
         {
             return View();
         }
+
+		// GET: Mobile
+		public ActionResult Fundamentals()
+		{
+			return View("~/Views/Mobile/2015/11/Fundamentals.cshtml");
+		}
+
+		// GET: Mobile
+		public ActionResult CaseStudy1()
+		{
+			return View("~/Views/Mobile/2015/11/CaseStudy1.cshtml");
+		}
     }
 }
