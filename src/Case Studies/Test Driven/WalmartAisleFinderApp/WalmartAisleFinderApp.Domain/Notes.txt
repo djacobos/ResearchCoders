@@ -1,0 +1,39 @@
+﻿
+https://developer.walmartlabs.com/docs
+
+http://i18next.com/pages/doc_init.html
+http://i18next.com/
+
+http://femgineer.com/transform-ideas/
+
+Beverages
+Candy
+Cofee
+BreakfastAndCereal
+Baking
+Dairy
+Bakery
+FrozenFoods
+Produce
+Meat
+
+
+Given we have a product to search 
+When we go to the store
+Then return an aisle number
+
+
+Problem were solving: Someone comes to you and says, would'nt it be nice if when I go to Walmart my app would tell me what aisle a product is in?
+What were building: An app.
+Platform: For now Android is fine.
+How would we go about to do this taking the TDD (Test Driven Development) approach
+
+https://developer.walmartlabs.com/docs
+
+1. Create new Blank Solution .Net Framework 4.5
+2. Name solution WalmartAisleFinderApp
+3. Add new Project --> C# Class Library and name project WalmartAisleFinderApp.Tests
+
+Include Packages
+NUnit and NUnitTestAdapter
+FluentAssertions - Allows me to express myself more
