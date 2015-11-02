@@ -11,6 +11,7 @@
 		<!-- PAGE TITLE -->
 		<header id="page-title">
 			<div class="container">
+				<h1>Navigation Menu</h1>
 				<ul class="breadcrumb">
 					<li><a href="@Url.Action("Index","Home")">Home</a></li>
 					<li class="active">Design Pattern</li>
@@ -27,19 +28,18 @@
 
 						<!-- article title -->
 						<div class="item-title">
-							<h2><a href="@Url.Action("Fundamentals", "DesignPattern")">Part 1: Design Patterns Fundamentals</a></h2>
+							<!-- @@Url.Action("Fundamentals", "DesignPattern") -->
+							<h2><a href="#">Part 1: Design Patterns Fundamentals</a></h2>
 							<span class="label label-default light">October 28, 2015</span>
 						</div>
 
 						<!-- blog short preview -->
 						<p>
-							Test driven development, also known as TDD, is an approach to building software that helps you think about what you are building from a different perspective.
-							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is using 3 Nuget packages to write unit tests, they are
-							NUnit, NUnit Adapter and Fluent Assertions...
+							Design patterns are listed as one of the most important things to learn in software or at least be familiar...
 						</p>
 
 						<!-- read more button -->
-						<a href="@Url.Action("Fundamentals","DesignPattern")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+						@*<a href="@Url.Action("Fundamentals","DesignPattern")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>*@
 
 					</div>
 					<!-- /blog item 1 -->
@@ -49,17 +49,18 @@
 
 						<!-- article title -->
 						<div class="item-title">
-							<h2><a href="@Url.Action("CaseStudy1", "DesignPattern")">Case Study 1: Aisle Finder</a></h2>
-							<span class="label label-default light">October 28, 2015</span>
+							<!-- @@Url.Action("CaseStudy1", "DesignPattern") -->
+							<h2><a href="#">Case Study 1: Organize Projects Pattern</a></h2>
+							<span class="label label-default light">December 1, 2015</span>
 						</div>
 
 						<!-- blog short preview -->
 						<p>
-							Enough with theory and reading material. In this section we will use TDD to create a mobile app starting with test driven development.  Our goal is to solve a problem a person is having and then coming up with a solution.
+							Wait, this is not a pattern listed in the GOF book? No it is not but we will explore good practices for organizing our projects...
 						</p>
 
 						<!-- read more button -->
-						<a href="@Url.Action("CaseStudy1", "DesignPattern")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+						@*<a href="@Url.Action("CaseStudy1", "DesignPattern")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>*@
 
 					</div>
 					<!-- /blog item 2 -->
