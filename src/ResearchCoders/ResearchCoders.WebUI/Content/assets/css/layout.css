@@ -37,7 +37,7 @@ body {
 	background-color:#f1f2f7;
 	font-family:'Open Sans', Arial, sans-serif;
 
-	font-size:14px; line-height:23px;
+	font-size:17px; line-height:23px;
 	margin:0; padding:0 !important;
 }
 
@@ -1015,7 +1015,7 @@ header.page-title {
 .fullscreenbanner-container,
 .fullwidthbanner-container {
 	background:#E2E6E9;
-	margin-bottom:60px !important;
+	margin-bottom:40px !important;
 }
 .fullscreenbanner-container li,
 .fullwidthbanner-container li {

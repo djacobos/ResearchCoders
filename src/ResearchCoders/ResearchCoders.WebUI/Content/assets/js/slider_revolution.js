@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 	   revapi = jQuery('.fullwidthbanner').revolution({
 			delay:9000,
 			startwidth:1170,
-			startheight:500,
+			startheight:400,// Change the home page height of slider
 			hideThumbs:10,
 
 			thumbWidth:100,

@@ -5,7 +5,7 @@
 
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 @*<link href="https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css" rel="stylesheet" type="text/css" />*@
-
+<script type="text/javascript" src="https://github.com/syntaxhighlighter/syntaxhighlighter/blob/master/src/core.js"></script>
 <!-- WRAPPER -->
 <div id="wrapper">
 
@@ -14,7 +14,7 @@
 		<!-- PAGE TITLE -->
 		<header id="page-title">
 			<div class="container">
-				<h1>Research <strong>Coders</strong></h1>
+				<h1>Navigation Menu</h1>
 
 				<ul class="breadcrumb">
 					<li><a href="@Url.Action("Index","Home")">Home</a></li>
@@ -36,13 +36,18 @@
 					<!-- article content -->
 					<article>
 						<p>
-							Problem were solving: Someone comes to you and says, would'nt it be nice if when I go to Walmart my app would tell me what aisle a product is in?<br />
-							How would we go about to do this taking the TDD (Test Driven Development) approach<br />
-							My preference is to start using a technique called <strong>Fake it til you make it</strong> which means that you start writing out how you want your test to read and your methods to be
-							called, although they do not exist, until "You Make it".
+							It is very convenient to give one class all the responsibilities and name it something like <strong>Util or Utility</strong>. As we try to eliminate duplicate code we feel its the best
+							and most easiest thing to do.  It may be okay if you are the only developer building something small and quick but one thing about software is that requirements get changed constantly.
+							If you work with at least a few other developers and all utilize this Util class, changes are bound to happen and code is bound to break.
+							<br/>
+							What shall we do here?<br/>
+							Below we see a Util class with different methods that get used often and we will be agile and apply the Single Responsibility Principle to make it more cleaner and testable.
+							Single Responsibility Principle says "Write code that has one and only one reason to change".
 						</p>
 					</article>
-
+					
+					
+					
 					<!-- carousel --><!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
 					<div class="owl-carousel text-center controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "autoPlay": true, "transitionStyle":"fadeUp"}'>
 						<div class="item">

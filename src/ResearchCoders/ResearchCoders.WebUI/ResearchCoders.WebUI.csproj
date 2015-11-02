@@ -313,6 +313,7 @@
     <Content Include="Content\assets\images\demo\revolution_slider\bg4.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\church_parallax.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\condoebg1.jpg" />
+    <Content Include="Content\assets\images\demo\revolution_slider\Craftsmanship02-1225x477D.png" />
     <Content Include="Content\assets\images\demo\revolution_slider\credits.txt" />
     <Content Include="Content\assets\images\demo\revolution_slider\darkblurbg.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\desktop_slider.png" />
@@ -907,6 +908,15 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\homepage\5.png" />
+    <Content Include="img\homepage\DesignPatterns.png" />
+    <Content Include="img\homepage\LogoBlack.png" />
+    <Content Include="img\homepage\Logo.png" />
+    <Content Include="img\homepage\LogoNavyBlue.png" />
+    <Content Include="img\homepage\Mobile.png" />
+    <Content Include="img\homepage\Solid.png" />
+    <Content Include="img\homepage\TestDriven2.png" />
+    <Content Include="img\homepage\TestDriven.png" />
     <Content Include="img\WalmartApp1.png" />
     <Content Include="img\WalmartApp2.png" />
     <Content Include="img\WalmartApp3.png" />
@@ -1016,7 +1026,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\assets\images\demo\revolution_slider\New folder\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

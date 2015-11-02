@@ -16,10 +16,10 @@
 		<!-- PAGE TITLE -->
 		<header id="page-title">
 			<div class="container">
-				<h1>Research <strong>Coders</strong></h1>
-
+				<h1>Navigation Menu</h1>
 				<ul class="breadcrumb">
 					<li><a href="@Url.Action("Index","Home")">Home</a></li>
+					<li><a href="@Url.Action("Index","TestDriven")">Test Driven Design</a></li>
 					<li class="active">Part 1: Test Fundamentals</li>
 				</ul>
 			</div>
@@ -35,10 +35,11 @@
 						<h1>Part 1: Test Fundamentals</h1>
 						<div>
 							Test driven development, also known as TDD, is an approach to building software that helps you think about what you are building from a different perspective.
-							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is using 3 Nuget packages to write unit tests, they are
+							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is to use 3 Nuget packages to write unit tests, they are
 							NUnit, NUnit Adapter and Fluent Assertions.  The NUnit Adapter allows NUnit to display the tests inside the Microsofts Visual Studio Test Runner.
 							I will not elaborate on it much since there are numerous reading content elsewhere but to summarize TDD goes like this:
 						</div>
+						<br/>
 						<ul>
 							<li>Red - Write a failing test</li>
 							<li>Green - Make the failing test pass</li>
