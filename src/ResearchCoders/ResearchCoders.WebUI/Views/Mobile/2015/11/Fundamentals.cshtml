@@ -34,47 +34,95 @@
 					<!-- article title -->
 					<header class="blog-post">
 						<h1>Part 1: Mobile Cross-Platform Fundamentals</h1>
-						<div>
-							Test driven development, also known as TDD, is an approach to building software that helps you think about what you are building from a different perspective.
-							Unit tests are created step by step until your system begans to be put together piece by piece.  My preference is using 3 Nuget packages to write unit tests, they are
-							NUnit, NUnit Adapter and Fluent Assertions.  The NUnit Adapter allows NUnit to display the tests inside the Microsofts Visual Studio Test Runner.
-							I will not elaborate on it much since there are numerous reading content elsewhere but to summarize TDD goes like this:
+						<div style="text-align: justify">
+							There are three main devices that developers use to build mobile apps, they are Android, IOS and Windows Phone.  Which one should we choose?
+							According to <a target="_blank" href="http://www.idc.com/prodserv/smartphone-os-market-share.jsp">http://www.idc.com/prodserv/smartphone-os-market-share.jsp</a>,  Android dominated the market with an 82.8% share in 2015 with IOS behind with 13.9% share and Windows Phone with 2.6%.
 						</div>
-						<ul>
-							<li>Red - Write a failing test</li>
-							<li>Green - Make the failing test pass</li>
-							<li>Refactor - Improve the quality if necessary</li>
-						</ul>
+						<br/>
+						<div style="text-align: justify">
+							Having this information helps us determine which platform we want to put or focus in and then we can research why the other platforms are not as popular.  Below is a table of the three most popular platforms and the programming languages and software used to create an mobile app.
+						</div>
+						<br />
+						<div class="table-responsive">
+							<table class="table .table-hover">
+								<tr>
+									<th>
+										Operating System
+									</th>
+									<th>
+										Programming Language Used
+									</th>
+									<th>
+										Software Used
+									</th>
+								</tr>
+								<tr>
+									<td>
+										Android
+									</td>
+									<td>
+										Java
+									</td>
+									<td>
+										IntelliJ IDEA, Elipse, Android Studio
+									</td>
+								</tr>
+								<tr>
+									<td>
+										IOS (IPhone Operating System)
+									</td>
+									<td>
+										Objective-C or Swift
+									</td>
+									<td>
+										XCode IDE or Jet Brains AppCode
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Windows
+									</td>
+									<td>
+										C#
+									</td>
+									<td>
+										Visual Studio
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div style="text-align: justify">
+							As a developer, if you wanted to create mobile apps for Android you will have to learn the Java programming language.
+							Let's say that there is a need for the Android app to go on a IOS phone, then now we have to learn Objective-C or Swift and spend time learning the language and transferring all the logic over.  What if there is a way to develop one make with one programming language?							
+						</div>
+						<br />
+						<div style="text-align: justify">
+							This is what cross-platform is all about where we can build one app that runs on all Operating Systems and fortunately there is an option to be able to do this.
+							We present a product called <strong class="text-info">Xamarin</strong>.  Xamarin is a product that allows developers to use the C# language to build one app one time that will run on all the three major mobile platforms.  There are a few drawbacks to consider but not something to worry much about.
+							So the question now is when should we choose a programing language for a specific mobile device vs using a Cross-Platform tool such as Xamarin?
+						</div>
+						<br />
+						<div>
+							
+							<h4>When to use Cross-Plaftform Xamarin</h4>
+							<ul>
+								<li>You are a .Net Developer</li>
+								<li>When you believe Visual Studio is the best IDE</li>
+							</ul>
+
+							<br />
+							<h4>When to use the native programming languages</h4>
+							<ul>
+								<li>You have experience with the language</li>
+								<li>Cost of Xamarin license is not cheap ($1000 per platform / per dev)</li>
+							</ul>								
+						</div>
+
+
 					</header>
 
-					<!-- article content -->
-					<article>
-						<p>
-							<h4>What is important to know for test driven design?</h4>
-							<ul>
-								<li>Need to care about code</li>
-								<li>Need to be disciplined</li>
-							</ul>							
-							<h4>What are benefits of test driven design?</h4>
-							<ul>
-								<li>Prevent Future Bugs</li>
-								<li>Good Test Code Coverage</li>
-								<li>Easier Maintenance</li>
-								<li>No fear in cleaning code, also known as Refactoring</li>
-							</ul>
-							
-							<h4>Techniques Covered</h4>
-							<ul>
-								<li>Red, Green, Refactor</li>
-								<li>Arrange, Act, Assert</li>
-								<li>Fake it til you make it</li>
-								<li>Assert First</li>
-							</ul>
-
-						</p>
-
-					</article>
-
+					Having said that, lets get started.
 				</div>
 			</div>
 
