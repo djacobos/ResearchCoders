@@ -306,6 +306,8 @@
     <Content Include="Content\assets\images\demo\revolution_slider\apartment1.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\apartment2.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\apartment3.jpg" />
+    <Content Include="Content\assets\images\demo\revolution_slider\banner1.jpg" />
+    <Content Include="Content\assets\images\demo\revolution_slider\banner2.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\bed1.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\bg1.jpg" />
     <Content Include="Content\assets\images\demo\revolution_slider\bg2.jpg" />
@@ -908,15 +910,16 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="img\homepage\5.png" />
-    <Content Include="img\homepage\DesignPatterns.png" />
+    <Content Include="img\homepage\designPatterns.jpg" />
     <Content Include="img\homepage\LogoBlack.png" />
     <Content Include="img\homepage\Logo.png" />
     <Content Include="img\homepage\LogoNavyBlue.png" />
-    <Content Include="img\homepage\Mobile.png" />
-    <Content Include="img\homepage\Solid.png" />
-    <Content Include="img\homepage\TestDriven2.png" />
-    <Content Include="img\homepage\TestDriven.png" />
+    <Content Include="img\homepage\mobile.jpg" />
+    <Content Include="img\homepage\solid.jpg" />
+    <Content Include="img\homepage\t7_52a.jpg" />
+    <Content Include="img\homepage\t7_53b.jpg" />
+    <Content Include="img\homepage\t7_5b.jpg" />
+    <Content Include="img\homepage\testdriven.jpg" />
     <Content Include="img\WalmartApp1.png" />
     <Content Include="img\WalmartApp2.png" />
     <Content Include="img\WalmartApp3.png" />
@@ -975,7 +978,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\TestDriven\ReadMe.txt" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_StyleSwitcher.cshtml" />
     <Content Include="Views\Shared\_OriginalLayout.cshtml" />
