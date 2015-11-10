@@ -32,33 +32,30 @@
 					<!-- article title -->
 					<header class="blog-post">
 						<h1>Case Study 1: Aisle Finder</h1>
+						<h5><strong>Problem:</strong> Someone comes to you and says, "would'nt it be nice when I go to Walmart, I can use an app would tell me what aisle a product is in?</h5>
 					</header>
 					<!-- article content -->
 					<article>
-						<p>
-							Problem were solving: Someone comes to you and says, would'nt it be nice if when I go to Walmart my app would tell me what aisle a product is in?
-							How would we go about to do this taking the TDD (Test Driven Development) approach
-							My preference is to start using a technique called <strong>Fake it til you make it</strong> which means that you start writing out how you want your test to read and your methods to be
-							called, although they do not exist, until "You Make it".
-						</p>
+						<div class="blog_post">							
+							How would we go about to do this taking the TDD (Test Driven Development) approach.  So far the user has given us a requirement, which is to be able to retrieve an aisle.  Our question to them should be: "Did you want the aisle number of the product based on category or the product itself?"
+							The user replies, "Let's get the aisle number based off the category of the product, so if I need to find out where the milk is at give me the Dairy Aisle". 
+							<br/><br />
+							<h5>Test First Approaches</h5>
+							Below are few approaches that I would like to use to start creating this app for the user, they are Assert First, the StairStep test and Fake-it-til-you-make-it.
+						</div>
+						<div class="blog_post">
+							<h5>Approach 1: Assert First</h5>
+							With assert first we will begin by creating our test backwards, meaning that first we will tell the compiler what we want the result to be and work our way backwards until we can create the implementation.  This approach helps me to write out the name of a class or method as I would like it to read before its ever created.
+						</div>
 					</article>
 
 					<!-- carousel --><!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
 					<div class="owl-carousel text-center controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "autoPlay": true, "transitionStyle":"fadeUp"}'>
 						<div class="item">
-							<img src="~/img/WalmartApp1.png" class="img-responsive" alt="img" />
+							<img src="~/img/CaseStudy/201511/AssertFirst1.png" class="img-responsive" alt="img" />
 						</div>
 						<div class="item">
-							<img src="~/img/WalmartApp2.png" class="img-responsive" alt="img" />
-						</div>
-						<div class="item">
-							<img src="~/img/WalmartApp3.png" class="img-responsive" alt="img" />
-						</div>
-						<div class="item">
-							<img src="~/img/WalmartApp5.png" class="img-responsive" alt="img" />
-						</div>
-						<div class="item">
-							<img src="~/img/WalmartApp6.png" class="img-responsive" alt="img" />
+							<img src="~/img/CaseStudy/201511/AssertFirst2.png" class="img-responsive" alt="img" />
 						</div>
 					</div>
 
@@ -76,11 +73,11 @@
 					<h3>Next Requirement</h3>
 					<!-- article content -->
 					<article>
-						<p>
+						<div class="blog_post">
 							The same person also says, "Not only do I want the Aisle Number but also would like the price."
 							<br />
 							How would we go about the change our design?
-						</p>
+						</div>
 					</article>
 
 					<!-- carousel --><!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
