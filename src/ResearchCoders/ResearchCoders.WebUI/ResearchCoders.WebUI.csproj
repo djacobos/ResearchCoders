@@ -913,6 +913,7 @@
     <Content Include="img\homepage\t7_53b.jpg" />
     <Content Include="img\homepage\t7_5b.jpg" />
     <Content Include="img\homepage\testdriven.jpg" />
+    <Content Include="img\Icon.ico" />
     <Content Include="img\WalmartApp1.png" />
     <Content Include="img\WalmartApp2.png" />
     <Content Include="img\WalmartApp3.png" />
