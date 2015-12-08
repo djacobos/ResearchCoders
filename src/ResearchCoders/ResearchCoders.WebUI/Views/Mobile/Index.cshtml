@@ -43,9 +43,8 @@
 
 					<!-- blog item 2 -->
 					<div class="item">
-						<!-- article title @@Url.Action("CaseStudy1", "Mobile")-->
 						<div class="item-title" style="margin-bottom: 5px">
-							<h2><a href="#">Case Study 1: The Xamarin Trial</a></h2>
+							<h2><a href="@Url.Action("CaseStudy1", "Mobile")">Case Study 1: The Xamarin Trial</a></h2>
 							<span class="label label-default light">December 1, 2015</span>
 						</div>
 
@@ -55,6 +54,20 @@
 						</p>
 					</div>
 					<!-- /blog item 2 -->
+					
+					<!-- blog item 3 -->
+					<div class="item">
+						<div class="item-title" style="margin-bottom: 5px">
+							<h2><a href="@Url.Action("CaseStudy2", "Mobile")">Case Study 2: Xamarin.Android</a></h2>
+							<span class="label label-default light">December 7, 2015</span>
+						</div>
+
+						<!-- blog short preview -->
+						<p style="margin-top: 5px">
+							What options do we have available for creating mobile apps with Xamarin?...<a href="@Url.Action("CaseStudy2", "Mobile")" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+						</p>
+					</div>
+					<!-- /blog item 3 -->
 
 				</div>
 
