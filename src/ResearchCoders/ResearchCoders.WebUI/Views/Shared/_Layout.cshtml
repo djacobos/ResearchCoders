@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using ResearchCoders.WebUI.Helpers.Language
+<!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
 <!--[if gt IE 9]><!-->
@@ -53,7 +54,7 @@
 
 			<!-- PHONE/EMAIL -->
 			<span class="quick-contact pull-left">
-				Email me at <a class="hidden-xs" href="mailto:djacobopro@gmail.com ">djacobopro@gmail.com</a>
+				@Resource.MainMenuEmailMe <a class="hidden-xs" href="mailto:djacobopro@gmail.com ">djacobopro@gmail.com</a>
 			</span>
 			<!-- /PHONE/EMAIL --
 			<!-- LANGUAGE -->
@@ -63,7 +64,19 @@
 				</button>
 
 				<ul class="dropdown-menu">
-					<li>
+					@{
+						foreach (var i in ResearchCoders.WebUI.Helpers.Language.SiteLanguages.AvailableLanguages)
+						{
+							<li>
+								@*@Html.ActionLink(i.FullName, "ChangeLanguage", "Home", new { language = i.CultureName }, null)*@
+								<a href="@Url.Action("ChangeLanguage", "Home", new { language = i.CultureName })" title="@i.FullName">
+									<img src="@Url.Content(i.ImagePath)" width="16" height="11">
+									@i.FullName
+								</a>
+							</li>
+						}
+					}
+					@*<li>
 						<a href="#">
 							<img src="~/Content/assets/images/flags/us.png" width="16" height="11" alt="EN Language" /> [US] English
 						</a>
@@ -72,7 +85,7 @@
 						<a href="#">
 							<img src="~/Content/assets/images/flags/mx.png" width="16" height="11" alt="MX Language" /> [MX] Spanish
 						</a>
-					</li>
+					</li>*@
 				</ul>
 			</div>
 			<!-- /LANGUAGE -->
@@ -101,20 +114,20 @@
 					<ul class="nav nav-pills nav-main scroll-menu" id="topMain">
 						<li class="dropdown active">
 							<a class="dropdown-toggle" href="#">
-								<b>Home</b> <i class="fa fa-angle-down"></i>
+								<b>@Resource.MainMenuHome</b> <i class="fa fa-angle-down"></i>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="@Url.Action("Index","TestDriven")">Test Driven Design</a></li>
-								<li><a href="@Url.Action("Index","SolidDesign")">Solid Design Principles</a></li>
-								<li><a href="@Url.Action("Index","Mobile")">Mobile Cross-Platform</a></li>
-								<li><a href="@Url.Action("Index","DesignPattern")">Design Patterns</a></li>
+								<li><a href="@Url.Action("Index","TestDriven")">@Resource.MainMenuTestDriven</a></li>
+								<li><a href="@Url.Action("Index","SolidDesign")">@Resource.MainMenuSolid</a></li>
+								<li><a href="@Url.Action("Index","Mobile")">@Resource.MainMenuMobile</a></li>
+								<li><a href="@Url.Action("Index","DesignPattern")">@Resource.MainMenuDesignPatterns</a></li>
 								<li class="divider"></li>
 							</ul>
 						</li>
 
 						<li>
 							<a class="dropdown-toggle" href="@Url.Action("AboutUs","Home")">
-								<b>About</b>
+								<b>@Resource.MainMenuAbout</b>
 							</a>							
 							@*						
 							@*<a class="dropdown-toggle">

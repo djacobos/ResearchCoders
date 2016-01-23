@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ResearchCoders.WebUI.Helpers.Language;
 
 namespace ResearchCoders.WebUI.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         // GET: Home
         public ActionResult Index()
@@ -19,5 +20,11 @@ namespace ResearchCoders.WebUI.Controllers
 		{
 			return View();
 		}
+
+	    public ActionResult ChangeLanguage(string language)
+	    {
+		    new SiteLanguages().SetLanguage(language);
+		    return RedirectToAction("Index", "Home");
+	    }
     }
 }

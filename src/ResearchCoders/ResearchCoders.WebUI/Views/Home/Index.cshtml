@@ -1,4 +1,5 @@
-﻿@{
+﻿@using ResearchCoders.WebUI.Helpers.Language
+@{
     ViewBag.Title = "Index";
 }
 
@@ -25,7 +26,7 @@
 						 data-start="1000"
 						 data-endspeed="500"
 						 data-easing="easeOutBack">
-						<h1>Craftsmanship</h1>
+						<h1>@Resource.HomePageSliderText1</h1>
 					</div>
 
 					<div class="tp-caption large_text sft"
@@ -35,7 +36,7 @@
 						 data-start="1700"
 						 data-endspeed="500"
 						 data-easing="easeOutBack">
-						<h2>Do you love quality?</h2>
+						<h2>@Resource.HomePageSliderText2</h2>
 					</div>
 
 					@*<div class="tp-caption large_text sft"
@@ -82,7 +83,7 @@
 											<img alt="" class="img-responsive" src="~/img/homepage/testdriven.jpg" />
 										</figure>
 										<div class="item-box-desc">
-											<h4>Test Driven Design</h4>
+											<h4>@Resource.HomePageHeaderBox1</h4>
 											<small class="styleColor">November 2015</small>
 											<p>Techniques for creating designs step by step while refactoring and keeping code clean.</p>
 										</div>
@@ -104,7 +105,7 @@
 											<img class="img-responsive" src="~/img/homepage/solid.jpg" alt="">
 										</figure>
 										<div class="item-box-desc">
-											<h4>SOLID Design Principles</h4>
+											<h4>@Resource.HomePageHeaderBox2</h4>
 											<small class="styleColor">Coming Soon - December 2015</small>
 											<p>We all must know the definition for SOLID, but how do they fit our day to day scenarios?</p>
 										</div>
@@ -127,7 +128,7 @@
 											<img class="img-responsive" src="~/img/homepage/mobile.jpg" alt="">
 										</figure>
 										<div class="item-box-desc">
-											<h4>Mobile Cross-Platform</h4>
+											<h4>@Resource.HomePageHeaderBox3</h4>
 											<small class="styleColor">November 2015</small>
 											<p>Wow Cross-Platform! Hands-on development and samples to get started.</p>
 										</div>
@@ -148,7 +149,7 @@
 											<img class="img-responsive" src="~/img/homepage/designPatterns.jpg" alt="">
 										</figure>
 										<div class="item-box-desc">
-											<h4>Design Patterns</h4>
+											<h4>@Resource.HomePageHeaderBox4</h4>
 											<small class="styleColor">Coming Soon - December 2015</small>
 											<p>Making the complex simple using the C# language.</p>
 										</div>
