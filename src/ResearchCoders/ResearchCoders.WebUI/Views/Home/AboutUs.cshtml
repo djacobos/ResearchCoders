@@ -1,4 +1,4 @@
-﻿
+﻿@using ResearchCoders.WebUI.Helpers.Language
 @{
     ViewBag.Title = "About";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -32,21 +32,20 @@
 				</div>*@
 			</div>
 			<div class="col-md-6">
-				<h3>What is Research Coders?</h3>
+				<h3>@Resource.AboutHeader</h3>
 				<h5>
-					Hi, my name is David Jacobo and I have been a programmer for 10 years developing software.  Today I dedicate my development with C# and Asp.Net MVC but my beginnings started with Visual Basic 6 and Visual FoxPro 9.0.
-					I have developed applications for windows desktop and web applications, but most recently have dedicated my learning to mobile development.
+					@Resource.AboutParagraph1
 					<br /><br />
-					The purpose of this website is to give you my knowledge and experience through articles written and case studies found on this site.
+					@Resource.AboutParagraph2
 				</h5>
 				<hr />
 				
-				What can you find on this site?
+				@Resource.AboutWhatCanYouFind1
 				<ul class="list-icon star-o">
-					<li class="text-info">Code samples in C#.</li>
-					<li class="text-info">Ideas and things to consider while programming.</li>
-					<li class="text-info">Knowledge from experience and books.</li>
-					<li class="text-info">Recommended reading material.</li>
+					<li class="text-info">@Resource.AboutWhatCanYouFind2</li>
+					<li class="text-info">@Resource.AboutWhatCanYouFind3</li>
+					<li class="text-info">@Resource.AboutWhatCanYouFind4</li>
+					<li class="text-info">@Resource.AboutWhatCanYouFind5</li>
 				</ul>
 
 			</div>
@@ -61,12 +60,12 @@
 		<!-- CALLOUT -->
 		<section class="container">
 			<div class="text-center text-info">
-				If you are a university student and are learning C#, you can email me below to get a free code review of your sample application.
+				@Resource.AboutFooterParagraph
 			</div>
 			
 			<div class="bs-callout text-center nomargin-bottom">
 				@*<h3>Come on, let's learn <strong>together</strong>! <a href="contact-us.html" class="btn btn-primary btn-lg">Contact Me!</a></h3>*@
-				<h3>Email me at <a href="mailto:djacobopro@gmail.com" class="btn btn-primary btn-lg">djacobopro@gmail.com </a></h3>
+				<h3>@Resource.MainMenuEmailMe <a href="mailto:djacobopro@gmail.com" class="btn btn-primary btn-lg">djacobopro@gmail.com </a></h3>
 			</div>
 		
 

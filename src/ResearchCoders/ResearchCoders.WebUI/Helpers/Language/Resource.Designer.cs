@@ -61,11 +61,119 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to If you are a university student and are learning C#, you can email me below to get a free code review of your sample application..
+        /// </summary>
+        public static string AboutFooterParagraph {
+            get {
+                return ResourceManager.GetString("AboutFooterParagraph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What is Research Coders?.
+        /// </summary>
+        public static string AboutHeader {
+            get {
+                return ResourceManager.GetString("AboutHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hi, my name is David Jacobo and I have been a programmer for 10 years developing software. Today I dedicate my development with C# and Asp.Net MVC but my beginnings started with Visual Basic 6 and Visual FoxPro 9.0. I have developed applications for windows desktop and web applications, but most recently have dedicated my learning to mobile development..
+        /// </summary>
+        public static string AboutParagraph1 {
+            get {
+                return ResourceManager.GetString("AboutParagraph1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The purpose of this website is to give you my knowledge and experience through articles written and case studies found on this site..
+        /// </summary>
+        public static string AboutParagraph2 {
+            get {
+                return ResourceManager.GetString("AboutParagraph2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What can you find on this site?.
+        /// </summary>
+        public static string AboutWhatCanYouFind1 {
+            get {
+                return ResourceManager.GetString("AboutWhatCanYouFind1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code samples in C#.nsid.
+        /// </summary>
+        public static string AboutWhatCanYouFind2 {
+            get {
+                return ResourceManager.GetString("AboutWhatCanYouFind2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ideas and things to consider while programming..
+        /// </summary>
+        public static string AboutWhatCanYouFind3 {
+            get {
+                return ResourceManager.GetString("AboutWhatCanYouFind3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Knowledge from experience and books..
+        /// </summary>
+        public static string AboutWhatCanYouFind4 {
+            get {
+                return ResourceManager.GetString("AboutWhatCanYouFind4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recommended reading material..
+        /// </summary>
+        public static string AboutWhatCanYouFind5 {
+            get {
+                return ResourceManager.GetString("AboutWhatCanYouFind5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MORE.
+        /// </summary>
+        public static string GlobalMore {
+            get {
+                return ResourceManager.GetString("GlobalMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to READ.
+        /// </summary>
+        public static string GlobalRead {
+            get {
+                return ResourceManager.GetString("GlobalRead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Test Driven Design.
         /// </summary>
         public static string HomePageHeaderBox1 {
             get {
                 return ResourceManager.GetString("HomePageHeaderBox1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to November 2015.
+        /// </summary>
+        public static string HomePageHeaderBox1Date {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox1Date", resourceCulture);
             }
         }
         
@@ -79,6 +187,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Not Available.
+        /// </summary>
+        public static string HomePageHeaderBox2Date {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox2Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mobile Cross-Platform.
         /// </summary>
         public static string HomePageHeaderBox3 {
@@ -88,11 +205,29 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to November 2015.
+        /// </summary>
+        public static string HomePageHeaderBox3Date {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox3Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Design Patterns.
         /// </summary>
         public static string HomePageHeaderBox4 {
             get {
                 return ResourceManager.GetString("HomePageHeaderBox4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Available.
+        /// </summary>
+        public static string HomePageHeaderBox4Date {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox4Date", resourceCulture);
             }
         }
         
@@ -111,6 +246,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         public static string HomePageSliderText2 {
             get {
                 return ResourceManager.GetString("HomePageSliderText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BACK TO TOP.
+        /// </summary>
+        public static string MainFooterBackToTop {
+            get {
+                return ResourceManager.GetString("MainFooterBackToTop", resourceCulture);
             }
         }
         

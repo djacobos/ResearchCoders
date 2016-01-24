@@ -117,23 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutFooterParagraph" xml:space="preserve">
+    <value>If you are a university student and are learning C#, you can email me below to get a free code review of your sample application.</value>
+  </data>
+  <data name="AboutHeader" xml:space="preserve">
+    <value>What is Research Coders?</value>
+  </data>
+  <data name="AboutParagraph1" xml:space="preserve">
+    <value>Hi, my name is David Jacobo and I have been a programmer for 10 years developing software. Today I dedicate my development with C# and Asp.Net MVC but my beginnings started with Visual Basic 6 and Visual FoxPro 9.0. I have developed applications for windows desktop and web applications, but most recently have dedicated my learning to mobile development.</value>
+  </data>
+  <data name="AboutParagraph2" xml:space="preserve">
+    <value>The purpose of this website is to give you my knowledge and experience through articles written and case studies found on this site.</value>
+  </data>
+  <data name="AboutWhatCanYouFind1" xml:space="preserve">
+    <value>What can you find on this site?</value>
+  </data>
+  <data name="AboutWhatCanYouFind2" xml:space="preserve">
+    <value>Code samples in C#.nsid</value>
+  </data>
+  <data name="AboutWhatCanYouFind3" xml:space="preserve">
+    <value>Ideas and things to consider while programming.</value>
+  </data>
+  <data name="AboutWhatCanYouFind4" xml:space="preserve">
+    <value>Knowledge from experience and books.</value>
+  </data>
+  <data name="AboutWhatCanYouFind5" xml:space="preserve">
+    <value>Recommended reading material.</value>
+  </data>
+  <data name="GlobalMore" xml:space="preserve">
+    <value>MORE</value>
+  </data>
+  <data name="GlobalRead" xml:space="preserve">
+    <value>READ</value>
+  </data>
   <data name="HomePageHeaderBox1" xml:space="preserve">
     <value>Test Driven Design</value>
+  </data>
+  <data name="HomePageHeaderBox1Date" xml:space="preserve">
+    <value>November 2015</value>
   </data>
   <data name="HomePageHeaderBox2" xml:space="preserve">
     <value>Solid Design Principles</value>
   </data>
+  <data name="HomePageHeaderBox2Date" xml:space="preserve">
+    <value>Not Available</value>
+  </data>
   <data name="HomePageHeaderBox3" xml:space="preserve">
     <value>Mobile Cross-Platform</value>
   </data>
+  <data name="HomePageHeaderBox3Date" xml:space="preserve">
+    <value>November 2015</value>
+  </data>
   <data name="HomePageHeaderBox4" xml:space="preserve">
     <value>Design Patterns</value>
+  </data>
+  <data name="HomePageHeaderBox4Date" xml:space="preserve">
+    <value>Not Available</value>
   </data>
   <data name="HomePageSliderText1" xml:space="preserve">
     <value>Craftsmanship</value>
   </data>
   <data name="HomePageSliderText2" xml:space="preserve">
     <value>Do you love quality?</value>
+  </data>
+  <data name="MainFooterBackToTop" xml:space="preserve">
+    <value>BACK TO TOP</value>
   </data>
   <data name="MainMenuAbout" xml:space="preserve">
     <value>About</value>
