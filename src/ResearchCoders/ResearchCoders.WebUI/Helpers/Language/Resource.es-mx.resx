@@ -124,10 +124,10 @@
     <value>Que es Research Coders?</value>
   </data>
   <data name="AboutParagraph1" xml:space="preserve">
-    <value>Hola, mi nombre es David Jacobo y yo estado desarollando software por los ultimos 10 anos. Por el momento me dedico a programar con el lenguaje C# junto con Asp.Net MVC, pero mis inicios eran con Visual Basic 6 y Visual FoxPro 9.  He desarollado aplicaciones para el escritorio de Windows y aplicaciones web pero recientemente he dedicado mi tiempo para aprender del desarollo movil.</value>
+    <value>Hola, mi nombre es David Jacobo y he estado desarollando software por los ultimos 10 anos. Por el momento me dedico a programar con el lenguaje C# junto con Asp.Net MVC, pero mis inicios eran con Visual Basic 6 y Visual FoxPro 9.  He desarollado aplicaciones para el escritorio de Windows y aplicaciones web pero recientemente he dedicado mi tiempo para aprender del desarollo movil.</value>
   </data>
   <data name="AboutParagraph2" xml:space="preserve">
-    <value>El proposito de este sitio is para dar conocimiento i compartir de mi experiencia a través de artículos escritos y estudios de casos que se encuentran en este sitio.</value>
+    <value>El proposito de este sitio es dar conocimiento y compartir de mi experiencia a través de artículos escritos y estudios de casos que se encuentran en este sitio.</value>
   </data>
   <data name="AboutWhatCanYouFind1" xml:space="preserve">
     <value>Que pudes encontrar en este sitio?</value>
@@ -139,7 +139,7 @@
     <value>Las ideas y las cosas a tener en cuenta durante la programación.</value>
   </data>
   <data name="AboutWhatCanYouFind4" xml:space="preserve">
-    <value>El conocimiento de la experiencia y los libros.</value>
+    <value>El conocimiento de experiencia y los libros.</value>
   </data>
   <data name="AboutWhatCanYouFind5" xml:space="preserve">
     <value>Material de lectura recomendada.</value>
