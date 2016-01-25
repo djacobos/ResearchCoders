@@ -178,6 +178,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Techniques for creating designs step by step while refactoring and keeping code clean..
+        /// </summary>
+        public static string HomePageHeaderBox1Preview {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox1Preview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Solid Design Principles.
         /// </summary>
         public static string HomePageHeaderBox2 {
@@ -192,6 +201,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         public static string HomePageHeaderBox2Date {
             get {
                 return ResourceManager.GetString("HomePageHeaderBox2Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We all must know the definition for SOLID, but how do they fit our day to day scenarios?.
+        /// </summary>
+        public static string HomePageHeaderBox2Preview {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox2Preview", resourceCulture);
             }
         }
         
@@ -214,6 +232,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Wow Cross-Platform! Hands-on development and samples to get started..
+        /// </summary>
+        public static string HomePageHeaderBox3Preview {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox3Preview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Design Patterns.
         /// </summary>
         public static string HomePageHeaderBox4 {
@@ -228,6 +255,15 @@ namespace ResearchCoders.WebUI.Helpers.Language {
         public static string HomePageHeaderBox4Date {
             get {
                 return ResourceManager.GetString("HomePageHeaderBox4Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Making the complex simple using the C# language..
+        /// </summary>
+        public static string HomePageHeaderBox4Preview {
+            get {
+                return ResourceManager.GetString("HomePageHeaderBox4Preview", resourceCulture);
             }
         }
         

@@ -156,11 +156,17 @@
   <data name="HomePageHeaderBox1Date" xml:space="preserve">
     <value>Noviembre 2015</value>
   </data>
+  <data name="HomePageHeaderBox1Preview" xml:space="preserve">
+    <value>Las técnicas para la creación de diseños paso a paso mientras refactorización y mantener el código limpio .</value>
+  </data>
   <data name="HomePageHeaderBox2" xml:space="preserve">
     <value>Principios de Diseno SOLID</value>
   </data>
   <data name="HomePageHeaderBox2Date" xml:space="preserve">
     <value>No Disponible</value>
+  </data>
+  <data name="HomePageHeaderBox2Preview" xml:space="preserve">
+    <value>Todos debemos saber la definición de SOLID , pero ¿cómo encaja nuestro trabajo del día a día.</value>
   </data>
   <data name="HomePageHeaderBox3" xml:space="preserve">
     <value>Movil Multiplataforma</value>
@@ -168,14 +174,20 @@
   <data name="HomePageHeaderBox3Date" xml:space="preserve">
     <value>Noviembre 2015</value>
   </data>
+  <data name="HomePageHeaderBox3Preview" xml:space="preserve">
+    <value>Wow multiplataforma ! Manos sobre el desarrollo y las muestras para empezar.</value>
+  </data>
   <data name="HomePageHeaderBox4" xml:space="preserve">
     <value>Patron de Disenos</value>
   </data>
   <data name="HomePageHeaderBox4Date" xml:space="preserve">
     <value>No Disponible</value>
   </data>
+  <data name="HomePageHeaderBox4Preview" xml:space="preserve">
+    <value>Hacer el complejo simple usando el lenguaje C #.</value>
+  </data>
   <data name="HomePageSliderText1" xml:space="preserve">
-    <value>Artesania</value>
+    <value>Artesanía</value>
   </data>
   <data name="HomePageSliderText2" xml:space="preserve">
     <value>Te gusta la calidad?</value>

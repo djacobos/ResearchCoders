@@ -156,11 +156,17 @@
   <data name="HomePageHeaderBox1Date" xml:space="preserve">
     <value>November 2015</value>
   </data>
+  <data name="HomePageHeaderBox1Preview" xml:space="preserve">
+    <value>Techniques for creating designs step by step while refactoring and keeping code clean.</value>
+  </data>
   <data name="HomePageHeaderBox2" xml:space="preserve">
     <value>Solid Design Principles</value>
   </data>
   <data name="HomePageHeaderBox2Date" xml:space="preserve">
     <value>Not Available</value>
+  </data>
+  <data name="HomePageHeaderBox2Preview" xml:space="preserve">
+    <value>We all must know the definition for SOLID, but how do they fit our day to day scenarios?</value>
   </data>
   <data name="HomePageHeaderBox3" xml:space="preserve">
     <value>Mobile Cross-Platform</value>
@@ -168,11 +174,17 @@
   <data name="HomePageHeaderBox3Date" xml:space="preserve">
     <value>November 2015</value>
   </data>
+  <data name="HomePageHeaderBox3Preview" xml:space="preserve">
+    <value>Wow Cross-Platform! Hands-on development and samples to get started.</value>
+  </data>
   <data name="HomePageHeaderBox4" xml:space="preserve">
     <value>Design Patterns</value>
   </data>
   <data name="HomePageHeaderBox4Date" xml:space="preserve">
     <value>Not Available</value>
+  </data>
+  <data name="HomePageHeaderBox4Preview" xml:space="preserve">
+    <value>Making the complex simple using the C# language.</value>
   </data>
   <data name="HomePageSliderText1" xml:space="preserve">
     <value>Craftsmanship</value>
