@@ -24,7 +24,8 @@ namespace ResearchCoders.WebUI.Controllers
 	    public ActionResult ChangeLanguage(string language)
 	    {
 		    new SiteLanguages().SetLanguage(language);
-		    return RedirectToAction("Index", "Home");
+
+			return Redirect(HttpContext.Request.UrlReferrer.ToString());		    
 	    }
     }
 }
